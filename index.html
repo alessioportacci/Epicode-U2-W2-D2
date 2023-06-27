@@ -76,6 +76,7 @@ EXTRAS
   </head>
 
   <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#"
         ><img src="./assets/img/1200px-Lucasfilm_logo.svg.png" width="130px"
@@ -100,13 +101,13 @@ EXTRAS
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Indiana Jones</a>
+            <a class="nav-link" href="#indiana-jones">Indiana Jones</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Star Wars</a>
+            <a class="nav-link" href="#star-wars">Star Wars</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Last minute</a>
+            <a class="nav-link" href="#">Ultime uscite</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Recensioni</a>
@@ -116,7 +117,7 @@ EXTRAS
           <input
             class="form-control mr-sm-2"
             type="search"
-            placeholder="Cerca posti da sogno"
+            placeholder="Cerca film da sogno"
             aria-label="Search"
           />
           <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">
@@ -125,20 +126,23 @@ EXTRAS
         </form>
       </div>
     </nav>
-
+    <!-- Scheda in alto -->
     <div class="container bg-light mt-4 p-4 pt-1">
       <div class="row">
         <div class="col-6">
           <h1 class="display-1">LucasFilm ltd</h1>
         </div>
         <div class="col-6 d-flex align-items-center">
-          <h1 class="display-5 align-middle">Facciamo bei film</h1>
+          <h1 class="display-5 align-middle">
+            Facciamo bei film <br />
+            (la maggior parte delle volte)
+          </h1>
         </div>
       </div>
       <hr />
       <div class="row">
         <div class="col-12">
-          <h2 class="display-6">Scopri i film più bell del momento!</h2>
+          <h2 class="display-6">Scopri i film più belli del momento!</h2>
         </div>
         <div class="col-12 mt-5">
           <button type="button" class="btn btn-info font-weight-bold pl-5 pr-5">
@@ -147,13 +151,14 @@ EXTRAS
         </div>
       </div>
     </div>
+    <!-- Indiana Jones -->
+    <div class="container mt-5" id="indiana-jones">
+      <div class=""><h1>Indiana Jones</h1></div>
 
-    <div class="container" id="indiana">
       <div
-        class="row row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-sm-between"
+        class="row row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-sm-between"
       >
-        <div class="col col-12"><h1>Indiana Jones</h1></div>
-        <div>
+        <div class="col">
           <div class="card border-info" style="width: 16rem">
             <img
               class="card-img-top"
@@ -162,7 +167,9 @@ EXTRAS
               height="400px"
             />
             <div class="card-body">
-              <h5 class="card-title">I predatori dell'arca</h5>
+              <h5 class="card-title text-truncate">
+                I predatori dell'arca perduta
+              </h5>
               <p class="card-text">
                 Il nostro eroe combatte i nazisti e cerca un'arca perduta. Non
                 lo so, non l'ho mai finito
@@ -171,7 +178,7 @@ EXTRAS
             </div>
           </div>
         </div>
-        <div>
+        <div class="col">
           <div class="card border-info" style="width: 16rem">
             <img
               class="card-img-top"
@@ -189,7 +196,7 @@ EXTRAS
             </div>
           </div>
         </div>
-        <div>
+        <div class="col">
           <div class="card border-info" style="width: 16rem">
             <img
               class="card-img-top"
@@ -207,7 +214,7 @@ EXTRAS
             </div>
           </div>
         </div>
-        <div>
+        <div class="col d-flex d-md-flex d-lg-none d-xl-flex">
           <div class="card border-info" style="width: 16rem">
             <img
               class="card-img-top"
@@ -227,13 +234,13 @@ EXTRAS
         </div>
       </div>
     </div>
-
+    <!-- Star Wars -->
     <div class="container mt-5" id="star-wars">
+      <div class="col col-12"><h1>Star Wars</h1></div>
       <div
         class="row row-cols-2 row-cols-lg-3 row-cols-xl-6 justify-content-sm-between"
       >
-        <div class="col col-12"><h1>Star Wars</h1></div>
-        <div>
+        <div class="col">
           <div class="card shadow-lg border-0" style="width: 16rem">
             <img
               class="card-img-top"
@@ -246,13 +253,13 @@ EXTRAS
               <p class="card-text">
                 Due cavalieri Jedi hanno la brillante idea di adottare il
                 bambino che sterminerà tutti i loro amici. Che bravi i nostri
-                cavalieri!
+                Jedi!
               </p>
               <a href="#" class="btn btn-info">Guardalo adesso!</a>
             </div>
           </div>
         </div>
-        <div>
+        <div class="col">
           <div class="card shadow-lg border-0" style="width: 16rem">
             <img
               class="card-img-top"
@@ -270,7 +277,7 @@ EXTRAS
             </div>
           </div>
         </div>
-        <div>
+        <div class="col">
           <div class="card shadow-lg border-0" style="width: 16rem">
             <img
               class="card-img-top"
@@ -289,7 +296,7 @@ EXTRAS
             </div>
           </div>
         </div>
-        <div>
+        <div class="col">
           <div class="card shadow-lg border-0" style="width: 16rem">
             <img
               class="card-img-top"
@@ -307,7 +314,7 @@ EXTRAS
             </div>
           </div>
         </div>
-        <div>
+        <div class="col">
           <div class="card shadow-lg border-0" style="width: 16rem">
             <img
               class="card-img-top"
@@ -316,7 +323,7 @@ EXTRAS
               height="400px"
             />
             <div class="card-body">
-              <h5 class="card-title">L'impero colpisce ancora</h5>
+              <h5 class="card-title text-truncate">L'impero colpisce ancora</h5>
               <p class="card-text">
                 Forse il film più cupo della saga, l'unico problema è che Leia
                 non è morta nel film prima. Dobbiamo sorbircela pure qua.
@@ -325,7 +332,7 @@ EXTRAS
             </div>
           </div>
         </div>
-        <div>
+        <div class="col">
           <div class="card shadow-lg border-0" style="width: 16rem">
             <img
               class="card-img-top"
@@ -338,7 +345,7 @@ EXTRAS
               <p class="card-text">
                 In questo film c'è un alieno con le ossa grosse sessista e degli
                 orsacchiotti che sconfiggono l'esercito più potente
-                dell'universo. Non ha letteralmente senso. 10/10
+                dell'universo.
               </p>
               <a href="#" class="btn btn-info">Guardalo adesso!</a>
             </div>
