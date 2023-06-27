@@ -154,7 +154,6 @@ EXTRAS
     <!-- Indiana Jones -->
     <div class="container mt-5" id="indiana-jones">
       <div class=""><h1>Indiana Jones</h1></div>
-
       <div
         class="row row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-sm-between"
       >
@@ -214,7 +213,17 @@ EXTRAS
             </div>
           </div>
         </div>
-        <div class="col d-flex d-md-flex d-lg-none d-xl-flex">
+        <!--  -->
+        <!-- Logicamente la riga 224 dovrebbe funzionare, ad md vengono visualizzate 3 schede e 
+            questa sparisce, in qualisasi altro caso, questa rimane. Per qualche motivo non 
+            funziona. Se utiliziamo questa sezione che segue (commentata), invece funziona
+
+            <div class="col d-flex d-md-flex d-lg-none d-xl-flex">
+
+            Riga 221 fa sparire la quarta scheda quando si raggiunge il lg, ma a quanto pare è come
+            se si applicasse quando viene raggiunto il md.
+          -->
+        <div class="col d-block d-md-none d-lg-block">
           <div class="card border-info" style="width: 16rem">
             <img
               class="card-img-top"
